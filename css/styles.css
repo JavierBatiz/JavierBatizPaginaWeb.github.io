@@ -102,6 +102,7 @@ a{
     top: 51px;
     width: 70%;
     flex:content;
+    overflow:auto;
   }
 
   /*El footer xdxd*/
@@ -132,7 +133,7 @@ a{
   #Footer #twitter{
 
     position: absolute;
-    bottom: 7%;
+    bottom: 10%;
     left: 15%;
   }
   
