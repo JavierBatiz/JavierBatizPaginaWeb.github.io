@@ -67,26 +67,28 @@ a{
   /*El aside izquierdo*/
 
   #Asideizquierdo aside{
-    background: linear-gradient(180deg,rgb(48, 165, 219),rgb(14, 144, 205));
-    width: 20%;
+    background: linear-gradient(180deg,rgb(48, 165, 219),rgb(14, 145, 205));
+    width: 15%;
     height: 100%;
     top: 51px;
     margin: 0;
     position: fixed;
     left: 0%;
+    flex:content;
 
   }
 
   /*El aside derecho*/
 
   #Asidederecho aside{
-    background: linear-gradient(180deg,rgb(48, 165, 219),rgb(14, 144, 205));
-    width: 20%;
+    background: linear-gradient(180deg,rgb(48, 165, 219),rgb(14, 145, 205));
+    width: 15%;
     height: 100%;
     top: 51px;
     margin: 0;
     right: 0%;
     position: fixed;
+    flex:content;
   }
 
   /*Frame principal*/
@@ -96,19 +98,22 @@ a{
     background-size: cover;
     background-attachment:fixed;
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 51px;
-    width: 60%;
+    width: 70%;
+    flex:content;
   }
 
   /*El footer xdxd*/
 
   #Footer {
-    background-color: rgb(190, 190, 213);
+    background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.35));
     position: fixed;
     bottom: 0;
-    left: 20%;
-    width: 60%;
+    left: 15%;
+    width: 70%;
+    flex:content;
+
   }
 
   #Footer p{
@@ -120,20 +125,15 @@ a{
   #Footer #facebook{
 
     position: absolute;
-    bottom: 25%;
+    bottom: 15%;
     left: 10%;
-
-
   }
 
   #Footer #twitter{
 
     position: absolute;
-    bottom: 20%;
+    bottom: 7%;
     left: 15%;
-
-
-
   }
   
   
